@@ -21,7 +21,7 @@ int maxOfArray = 9;
 // 9 5 3 2
 // 8 4 4 2
 
-System.Console.WriteLine($"\n<<<Задача 54: Упорядочение по убыванию элементов строк двумерного массива>>>\n");
+System.Console.WriteLine($"\n<<Задача 54: Упорядочение по убыванию элементов строк двумерного массива>>\n");
 
 int[,] array1 = GetArray(rows, columns, minOfArray, maxOfArray);
 
@@ -44,7 +44,7 @@ PressAKey();
 // Программа считает сумму элементов в каждой строке и выдаёт номер строки
 // с наименьшей суммой элементов: 1 строка
 
-System.Console.WriteLine($"\n<<<Задача 56: Нахождение строки с минимальной суммой элементов массива>>>\n");
+System.Console.WriteLine($"\n<<Задача 56: Нахождение строки с минимальной суммой элементов массива>>\n");
 
 int[,] array2 = GetArray(rows, columns, minOfArray, maxOfArray);
 
@@ -63,7 +63,7 @@ PressAKey();
 // 18 20
 // 15 18
 
-System.Console.WriteLine($"\n<<<Задача 58: Нахождение произведения двух матриц (двумерных массивов)>>>\n");
+System.Console.WriteLine($"\n<<Задача 58: Нахождение произведения двух матриц (двумерных массивов)>>\n");
 
 int[,] array3 = GetArray(rows, columns, minOfArray, maxOfArray);
 
@@ -102,6 +102,7 @@ PressAKey();
 // 27(0,0,1) 90(0,1,1)
 // 26(1,0,1) 55(1,1,1)
 
+System.Console.WriteLine($"\n<<Задача 60: Построчный вывод массива с добавлением индекса элементов>>\n");
 int[,,] arr3D = GetArray3D();
 PrintArray3D(arr3D);
 
@@ -298,4 +299,45 @@ int[,] MultiplicationArray(int[,] arrFirst, int[,] arrSecond) // 58
     {
         return null!;
     }
+}
+System.Console.WriteLine();
+
+
+System.Console.WriteLine($"\n<<Задача 62: Спиральный массив 4 х 4>>\n");
+int n = 4;
+int[,] fillingMatrix = new int[n, n];
+
+int count = 1;
+int i = 0;
+int j = 0;
+
+while (count <= fillingMatrix.GetLength(0) * fillingMatrix.GetLength(1))
+{
+  fillingMatrix[i, j] = count;
+  count++;
+  if (i <= j + 1 && i + j < fillingMatrix.GetLength(1) - 1)
+    j++;
+  else if (i < j && i + j >= fillingMatrix.GetLength(0) - 1)
+    i++;
+  else if (i >= j && i + j > fillingMatrix.GetLength(1) - 1)
+    j--;
+  else
+    i--;
+}
+
+WriteArray(fillingMatrix);
+
+void WriteArray (int[,] array)
+{
+  for (int i = 0; i < array.GetLength(0); i++)
+  {
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+      if (array[i,j] / 10 <= 0)
+      Console.Write($" {array[i,j]} ");
+
+      else Console.Write($"{array[i,j]} ");
+    }
+    Console.WriteLine();
+  }
 }
