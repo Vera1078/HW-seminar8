@@ -1,0 +1,15 @@
+C:\Users\lipp2\Documents\Курсы по программированию\Домашние задания\HW seminar8\zadachi\tasks\bin\Debug\net6.0\tasks.exe
+C:\Users\lipp2\Documents\Курсы по программированию\Домашние задания\HW seminar8\zadachi\tasks\bin\Debug\net6.0\tasks.deps.json
+C:\Users\lipp2\Documents\Курсы по программированию\Домашние задания\HW seminar8\zadachi\tasks\bin\Debug\net6.0\tasks.runtimeconfig.json
+C:\Users\lipp2\Documents\Курсы по программированию\Домашние задания\HW seminar8\zadachi\tasks\bin\Debug\net6.0\tasks.dll
+C:\Users\lipp2\Documents\Курсы по программированию\Домашние задания\HW seminar8\zadachi\tasks\bin\Debug\net6.0\tasks.pdb
+C:\Users\lipp2\Documents\Курсы по программированию\Домашние задания\HW seminar8\zadachi\tasks\obj\Debug\net6.0\tasks.csproj.AssemblyReference.cache
+C:\Users\lipp2\Documents\Курсы по программированию\Домашние задания\HW seminar8\zadachi\tasks\obj\Debug\net6.0\tasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lipp2\Documents\Курсы по программированию\Домашние задания\HW seminar8\zadachi\tasks\obj\Debug\net6.0\tasks.AssemblyInfoInputs.cache
+C:\Users\lipp2\Documents\Курсы по программированию\Домашние задания\HW seminar8\zadachi\tasks\obj\Debug\net6.0\tasks.AssemblyInfo.cs
+C:\Users\lipp2\Documents\Курсы по программированию\Домашние задания\HW seminar8\zadachi\tasks\obj\Debug\net6.0\tasks.csproj.CoreCompileInputs.cache
+C:\Users\lipp2\Documents\Курсы по программированию\Домашние задания\HW seminar8\zadachi\tasks\obj\Debug\net6.0\tasks.dll
+C:\Users\lipp2\Documents\Курсы по программированию\Домашние задания\HW seminar8\zadachi\tasks\obj\Debug\net6.0\refint\tasks.dll
+C:\Users\lipp2\Documents\Курсы по программированию\Домашние задания\HW seminar8\zadachi\tasks\obj\Debug\net6.0\tasks.pdb
+C:\Users\lipp2\Documents\Курсы по программированию\Домашние задания\HW seminar8\zadachi\tasks\obj\Debug\net6.0\tasks.genruntimeconfig.cache
+C:\Users\lipp2\Documents\Курсы по программированию\Домашние задания\HW seminar8\zadachi\tasks\obj\Debug\net6.0\ref\tasks.dll
